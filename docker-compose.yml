@@ -1,0 +1,6 @@
+services:
+  redpanda:
+    image: redpandadata/redpanda:latest
+    command: redpanda start --mode dev-container
+    ports:
+      - "9092:9092"
